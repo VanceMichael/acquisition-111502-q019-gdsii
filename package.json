@@ -1,0 +1,17 @@
+{
+  "name": "receiver-gdsii",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "22.22.1"
+  },
+  "scripts": {
+    "start": "node scripts/start.mjs",
+    "build": "node scripts/check-syntax.mjs",
+    "test": "node --test test/base.test.mjs test/source.test.mjs",
+    "demo": "node scripts/demo.mjs",
+    "check:structured": "node test/structured-check.mjs",
+    "check:partial": "node test/partial-check.mjs"
+  }
+}

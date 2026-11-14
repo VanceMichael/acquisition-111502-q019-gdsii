@@ -1,0 +1,11 @@
+{
+  "/files/layout.gds": {
+    "file": "layout.gds",
+    "mediaType": "application/octet-stream",
+    "partialFile": "layout.gds.partial"
+  },
+  "/deliveries": {
+    "file": "delivery.json",
+    "mediaType": "application/json"
+  }
+}

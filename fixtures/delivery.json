@@ -1,0 +1,15 @@
+{
+  "deliveryId": "delivery-1",
+  "revision": "r1",
+  "roots": [
+    {
+      "href": "/files/layout.gds"
+    }
+  ],
+  "resources": [
+    {
+      "href": "/files/layout.gds",
+      "name": "layout.gds"
+    }
+  ]
+}

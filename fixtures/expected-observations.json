@@ -1,0 +1,41 @@
+[
+  {
+    "kind": "cell-reference",
+    "value": {
+      "parent": "TOP",
+      "target": "LEAF",
+      "kind": "AREF",
+      "columns": 2,
+      "rows": 3,
+      "origin": [
+        100,
+        200
+      ],
+      "columnEndpoint": [
+        120,
+        200
+      ],
+      "rowEndpoint": [
+        100,
+        230
+      ]
+    }
+  },
+  {
+    "kind": "element",
+    "value": {
+      "structure": "LEAF",
+      "layer": 7
+    }
+  },
+  {
+    "kind": "instance-path",
+    "value": {
+      "structures": [
+        "TOP",
+        "LEAF"
+      ],
+      "multiplicity": 6
+    }
+  }
+]
