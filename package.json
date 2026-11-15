@@ -11,7 +11,7 @@
     "build": "node scripts/check-syntax.mjs",
     "test": "node --test test/base.test.mjs test/source.test.mjs",
     "demo": "node scripts/demo.mjs",
-    "check:structured": "node test/structured-check.mjs",
-    "check:partial": "node test/partial-check.mjs"
+    "acceptance:structured": "node test/structured-check.mjs",
+    "acceptance:partial": "node test/partial-check.mjs"
   }
 }

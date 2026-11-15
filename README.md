@@ -23,8 +23,8 @@ npm run demo
 build 对所有源码做语法检查，test 检查当前已开放的收件能力和来源服务。demo 从临时空目录启动两个真实 HTTP 服务，领取实际来源，输出收件与资料索引，然后关闭并清理临时状态；不重播预先保存的日志。它没有固定等待，不超过来源请求本身的超时。当前输出只有原始收件，不能据此称自动解释已完成。
 
 ```sh
-npm run check:structured
-npm run check:partial
+npm run acceptance:structured
+npm run acceptance:partial
 ```
 
 这两项检查分别读取完整与不完整来源样本，核对 docs/source-contract.md 中的结构化记录与出处关系。当前版本未提供自动解释，因此此命令会明确报告缺少记录；它不是现有原始收件功能的通过条件。完整支持范围及人工接口见 docs/service-api.md 和 docs/source-contract.md。
